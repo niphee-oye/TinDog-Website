@@ -1,0 +1,214 @@
+/* Body */
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+
+/* Paragraphs */
+p{
+    color: #818080;
+}
+
+
+/* Brand Colors */
+.brand-color{
+    background-color: #E64848;
+}
+
+.accent-cream{
+    color: #FFFDE3;
+}
+
+.accent-cream-back{
+    background-color: #FFFDE3;
+}
+
+
+/* Alignment */
+.align-the-text{
+    text-align: center;
+}
+
+
+/* Nav Bar */
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item{
+    padding-right: 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.container-fluid{ 
+    margin: 50px 0 70px 0; /* Navbar's margin */
+    padding: 0;
+}
+
+
+/* Title */
+#title{
+    padding: 0 30px 95px;
+}
+
+.title-container{
+    max-width: 950px; /* Max. Container width for title */
+    margin: auto;
+}
+
+.title-text h1{
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+#title-image{
+    transform: rotate(25deg);
+    width: 22%;
+    position: absolute;
+    right: 20%;
+}
+
+
+/* Download Buttons */
+#download{
+    margin: 5% 3% 5% 0;
+    border-radius: 4px;
+}
+
+
+/* Features */
+#features{
+    padding: 50px 50px;
+    position: relative;
+}
+
+.a-feature{
+    padding: 20px;
+}
+
+.a-feature h3{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+.a-feature i{  /* Icon Style */
+    color: #f15353;
+    padding: 0 0 40px 0;
+}
+
+.a-feature i:hover{
+    color: #C21010;
+}
+
+
+/* Testimonials Section */
+#testimonials h2{
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.testimonial-image{
+    border-radius: 100%;
+    width: 15%;
+    margin: 20px;
+}
+
+
+/* Carousel */
+.carousel-item{
+    padding: 7% 15%;
+}
+
+
+/* Press */
+#press{
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* Pricing */
+#pricing{
+    margin: 70px;
+}
+
+
+.pricing-info h2{
+    font-weight: 700;
+}
+
+.pricing-info p{
+    margin-bottom: 50px;
+}
+
+
+/* Call to Action */
+#cta{
+    padding: 60px 0 65px 0;
+}
+
+#cta h3{
+    margin: 50px 0;
+    font-weight: 900;
+    font-size: 3.5rem;
+    padding: 0 100px;
+}
+
+.cta-btn{
+    margin: 15px;
+}
+
+/* Footer */
+#footer{
+    padding: 100px 0;
+}
+
+
+.foot-fa{
+    padding: 0 7px 15px;
+}
+
+
+/* Making website responsive using media queries */
+
+@media (max-width: 990px){
+    #title-image{
+        position: static;
+        transform: rotate(0);
+        width: 40%;
+    }
+
+    #title{
+        text-align: center;
+    }
+
+    .menu-side{
+        text-align: left;
+    }
+
+    .title-text h1{
+        font-weight: 900;
+        font-size: 4rem;
+        line-height: 1.5;
+    }
+
+    #download{
+        margin: 5% 3% 5% 0;
+        border-radius: 4px;
+    }
+}
